@@ -7,7 +7,7 @@ class Login:
         self.root.title("Login Portal")
         self.root.geometry("1199x600+100+50")
 
-        self.bg=ImageTk.PhotoImage(file="images/login_image.webp")
+        self.bg=ImageTk.PhotoImage(file="login_image.webp")
         self.bg_image=Label(self.root,image=self.bg).place(x=0,y=0,relwidth=1,relheight=1)
         self.root.resizable(False,False)
 
